@@ -1,5 +1,6 @@
 import {
   Box,
+  Button,
   chakra,
   Container,
   Link,
@@ -8,6 +9,7 @@ import {
   useColorModeValue,
   VisuallyHidden,
 } from '@chakra-ui/react';
+import { EmailIcon } from '@chakra-ui/icons'
 import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 import { ReactNode } from 'react';
 
@@ -57,24 +59,14 @@ export default function Footer() {
         align={{ base: 'center', md: 'center' }}>
         
         <Stack direction={'row'} spacing={6}>
-          <SocialButton label={'GitHub'} href={'https://github.com/umoh1'}>
+          <SocialButton label={'GitHub'} href={'https://github.com/eluong1217'}>
             <FaGithub />
           </SocialButton>
-          <SocialButton label={'LinkedIn'} href={'https://www.linkedin.com/in/nj-umoh/'}>
+          <SocialButton label={'LinkedIn'} href={'https://www.linkedin.com/in/eluong1217/'}>
             <FaLinkedin />
           </SocialButton>
-          <SocialButton label={'Instagram'} href={'https://www.instagram.com/compscilib/'}>
-            <FaInstagram />
-          </SocialButton>
         </Stack>
-        
-        <Text>
-          Email:
-          
-          <Link color="blue.300" href="mailto:nj@compscilib.com">
-             {" nj@compscilib.com"}
-          </Link>
-        </Text>
+        <Button leftIcon={<EmailIcon />} colorScheme="teal" > Contact Me </Button>
       </Container>
     </Box>
   );

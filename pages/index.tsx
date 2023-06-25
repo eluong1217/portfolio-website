@@ -15,10 +15,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>NJ Umoh Portfolio</title>
-        <meta name="description" content="NJ Umoh Portfolio" />
+        <title>Eric Luong Portfolio</title>
+        <meta name="description" content="Eric Luong Portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/smile.ico" />
       </Head>
       
       <Container maxW="container.lg">

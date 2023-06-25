@@ -21,7 +21,6 @@ export type Experience = {
     skills: string[];
     bullets: string[];
     logo: string;
-    url: string;
 }
 
 export type Project = {

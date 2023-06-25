@@ -6,17 +6,58 @@ export default function WorkExperience() {
     
     const Jobs: Experience[] = [
         {
-            title: "CompSciLib",
-            alt: "CompSciLib Logo",
-            role: "Founder, CEO, FullStack Developer",
-            period: "Jan 2022 - Present",
-            skills: ["Java", "SpringBoot", "Python", "Flask","AWS", "GCP", "DataDog", "Terraform"],
-            bullets: ["Founded an Ed-Tech startup that provides on-demand Computer Science Theory Education for students worldwide", 
-            "Developed our REST API with Java & Springboot & created our Frontend with TypeScript, Next.JS, & ChakraUI", 
-            "Hosted & secured the API using AWS, leveraging DataDog for monitoring & Terraform for IAC", 
-            "Working with a team of 10 employees, we’ve acquired 150,000+ unique users from over 175 countries since release"],
-            logo: "/CompSciLibLogo.png",
-            url: "https://www.compscilib.com"
+            title: "University of Massachusetts Boston",
+            alt: "UMB Logo",
+            role: "Peer Mentor",
+            period: "Sept 2022 - Present",
+            skills: [],
+            bullets: [],
+            logo: "/work_UMB.png",
+        },
+        {
+            title: "Reign Drink Lab",
+            alt: "Reign Logo",
+            role: "Barista",
+            period: "Sept 2021 - Present",
+            skills: [],
+            bullets: [],
+            logo: "/work_reign.png",
+        },
+        {
+            title: "University of Massachusetts Boston",
+            alt: "UMB Logo",
+            role: "Course Grader for CS285L",
+            period: "Sept 2022 - December 2022",
+            skills: [],
+            bullets: [],
+            logo: "/work_UMB.png",
+        },
+        {
+            title: "Castle Square Intro to Tech Internship",
+            alt: "Square Tech Logo",
+            role: "Tech Intern",
+            period: "Sept 2019 - Janurary 2020",
+            skills: [],
+            bullets: [],
+            logo: "/work_SquareTech.png",
+        },
+        {
+            title: "Kumon Math and Reading Center",
+            alt: "Kumon Logo",
+            role: "Center Assistant",
+            period: "July 2018 - August 2019",
+            skills: [],
+            bullets: [],
+            logo: "/work_kumon.png",
+        },
+        {
+            title: "BCYF City Hall Childcare",
+            alt: "BCYF Logo",
+            role: "Child Supervisor",
+            period: "June 2017 - August 2017",
+            skills: [],
+            bullets: [],
+            logo: "/work_bcyf.png",
         }
     ]
     
@@ -33,7 +74,7 @@ export default function WorkExperience() {
                 _hover={{ borderColor: "blue.500" }}
                 position="relative"
                 >
-                <LinkOverlay href={props.job.url} rel="noopener" isExternal>
+                <LinkOverlay rel="noopener" isExternal>
                     <Flex justifyContent="space-between">
                     <Flex>
                         <Image

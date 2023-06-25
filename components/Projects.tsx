@@ -4,12 +4,44 @@ import { Project} from "../types";
 
 const projects: Project[] = [
     {
+        title: "Monkey Mania",
+        link: "https://github.com/eluong1217/monkey-mania",
+        description: "An arcade based game where the player uses arrow keys to move left and right to try and catch fruits. I used the Processing IDE which has a similar language to Java to implement features such as controls, a life counter and game over menu.",
+        alt: "portfolio picture",
+        techstack: ["Java", "Processing", "Object-Oriented Programming"],
+        image: "/CompSciLibLogo.png"
+    },
+    {
         title: "Portfolio Project",
-        link: "https://github.com/umoh1/umoh1.github.io",
-        description: "A personal portfolio to showcase my education, work experience, projects, and skills. Used popular frontend technologies such as Next.JS and TypeScript to create this project.",
+        link: "https://github.com/eluong1217/portfolio-website",
+        description: "A personal portfolio website to showcase my education, work experience, projects, and skills. I used popular frontend technologies such as Next.JS and TypeScript to create this project.",
         alt: "portfolio picture",
         techstack: ["HTML", "CSS", "TypeScript", "Next.JS", "React", "ChakraUI","Github Pages"],
+        image: "/project_portfolio.png"
+    },
+    {
+        title: "Flappy Bird",
+        link: "https://github.com/eluong1217/Flappy-Bird-Website",
+        description: "A website-based version of the popular game Flappy Bird. I used HTML, CSS, and Javascript to create this project. I also used Github Pages to host the website.",
+        alt: "portfolio picture",
+        techstack: ["HTML", "CSS", "Javascript","Github Pages"],
         image: "/CompSciLibLogo.png"
+    },
+    {
+        title: "Pomodoro Timer",
+        link: "https://github.com/eluong1217/pomodoro-timer",
+        description: "A timer I created to help replicate the Pomodoro effect to enhance productivity. I used HTML, CSS, and Javascript to create this project as well as Github Pages to host the website.",
+        alt: "portfolio picture",
+        techstack: ["HTML", "CSS", "Javascript","Github Pages"],
+        image: "/CompSciLibLogo.png"
+    },
+    {
+        title: "Pixar vs. DreamWorks",
+        link: "https://github.com/eluong1217/Pixar-Vs.-DreamWorks",
+        description: "A statistical analysis between the performance of Pixar and DreamWorks movies. I used RStudio to create the visual aspects of the set as well as Microsoft Suite to import the data and organize it in a digestible manner.",
+        alt: "portfolio picture",
+        techstack: ["R", "RStudio", "Word", "Excel", "Powerpoint"],
+        image: "/projects_pvd.png"
     }
 ]
 

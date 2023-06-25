@@ -17,14 +17,24 @@ import {
   Stack,
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
+import { Switch } from '@chakra-ui/react'
+import { MoonIcon } from '@chakra-ui/icons'
+import {
+  FormControl,
+  FormLabel,
+  FormErrorMessage,
+  FormHelperText,
+} from '@chakra-ui/react'
 import {NavBarLink} from '../types';
 
+
 const Links: NavBarLink[] = [{label: 'Home', href: '#'}, 
-{label: 'LinkedIn', href: 'https://www.linkedin.com/in/nj-umoh/'}, 
-{label: 'GitHub', href: 'https://github.com/umoh1'}];
+{label: 'LinkedIn', href: 'https://www.linkedin.com/in/eluong1217/'}, 
+{label: 'GitHub', href: 'https://github.com/eluong1217'}];
 
 const NavLink = (props: {link: NavBarLink}) => (
   <Link
+    isExternal = {true}
     px={2}
     py={1}
     rounded={'md'}
@@ -52,7 +62,7 @@ export default function NavBar() {
             onClick={isOpen ? onClose : onOpen}
           />
           <HStack spacing={8} alignItems={'center'}>
-            <Box fontWeight="bold">NJ Umoh</Box>
+            <Box fontWeight="bold">Eric Luong</Box>
             <HStack
               as={'nav'}
               spacing={4}
@@ -62,8 +72,11 @@ export default function NavBar() {
               ))}
             </HStack>
           </HStack>
+          <Stack align='center' direction='row'>
+            <MoonIcon color = "black"/>
+            <Switch size='lg'/>
+          </Stack>
         </Flex>
-
         {isOpen ? (
           <Box pb={4} display={{ md: 'none' }}>
             <Stack as={'nav'} spacing={4}>

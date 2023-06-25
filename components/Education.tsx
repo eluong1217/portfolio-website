@@ -4,12 +4,20 @@ import {School} from "../types";
 
 const Universities: School[] = [
     {
-        title: "Boston University",
-        alt: "BU Logo",
+        title: "University of Massuchusetts Boston",
+        alt: "UMB Logo",
         degree: "B.A in Computer Science",
-        period: "May 2022",
-        gpa: "3.9",
-        logo: "/bu_logo_demo.png"
+        period: "May 2024",
+        gpa: "3.8",
+        logo: "/education_umb.png"
+    },
+    {
+        title: "Boston Latin School",
+        alt: "BLS Logo",
+        degree: "High School Diploma",
+        period: "May 2020",
+        gpa: "3.3",
+        logo: "/education_bls.png"
     }
 ]
 
