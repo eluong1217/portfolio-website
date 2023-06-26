@@ -16,16 +16,16 @@ const projects: Project[] = [
         link: "https://github.com/eluong1217/portfolio-website",
         description: "A personal portfolio website to showcase my education, work experience, projects, and skills. I used popular frontend technologies such as Next.JS and TypeScript to create this project.",
         alt: "portfolio picture",
-        techstack: ["HTML", "CSS", "TypeScript", "Next.JS", "React", "ChakraUI","Github Pages"],
+        techstack: ["HTML", "CSS", "TypeScript", "Next.JS", "React", "ChakraUI","Vercel"],
         image: "/project_portfolio.png"
     },
     {
         title: "Flappy Bird",
         link: "https://github.com/eluong1217/Flappy-Bird-Website",
-        description: "A website-based version of the popular game Flappy Bird. I used HTML, CSS, and Javascript to create this project. I also used Github Pages to host the website.",
+        description: "A simpler website-based version of the popular game Flappy Bird. I used HTML, CSS, and Javascript to create this project. I also used Github Pages to host the website.",
         alt: "portfolio picture",
         techstack: ["HTML", "CSS", "Javascript","Github Pages"],
-        image: "/CompSciLibLogo.png"
+        image: "/project_FBW2.png"
     },
     {
         title: "Pomodoro Timer",
@@ -33,7 +33,7 @@ const projects: Project[] = [
         description: "A timer I created to help replicate the Pomodoro effect to enhance productivity. I used HTML, CSS, and Javascript to create this project as well as Github Pages to host the website.",
         alt: "portfolio picture",
         techstack: ["HTML", "CSS", "Javascript","Github Pages"],
-        image: "/CompSciLibLogo.png"
+        image: "/project_pomodoro.png"
     },
     {
         title: "Pixar vs. DreamWorks",
@@ -41,7 +41,7 @@ const projects: Project[] = [
         description: "A statistical analysis between the performance of Pixar and DreamWorks movies. I used RStudio to create the visual aspects of the set as well as Microsoft Suite to import the data and organize it in a digestible manner.",
         alt: "portfolio picture",
         techstack: ["R", "RStudio", "Word", "Excel", "Powerpoint"],
-        image: "/projects_pvd.png"
+        image: "/project_pvd.png"
     }
 ]
 
