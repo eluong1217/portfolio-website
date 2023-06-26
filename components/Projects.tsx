@@ -9,7 +9,7 @@ const projects: Project[] = [
         description: "An arcade based game where the player uses arrow keys to move left and right to try and catch fruits. I used the Processing IDE which has a similar language to Java to implement features such as controls, a life counter and game over menu.",
         alt: "portfolio picture",
         techstack: ["Java", "Processing", "Object-Oriented Programming"],
-        image: "/CompSciLibLogo.png"
+        image: "/project_monkey.png"
     },
     {
         title: "Portfolio Project",
