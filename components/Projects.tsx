@@ -21,7 +21,7 @@ const projects: Project[] = [
     },
     {
         title: "Flappy Bird",
-        link: "https://github.com/eluong1217/Flappy-Bird-Website",
+        link: "https://eluong1217.github.io/Flappy-Bird-Website/",
         description: "A simpler website-based version of the popular game Flappy Bird. I used HTML, CSS, and Javascript to create this project. I also used Github Pages to host the website.",
         alt: "portfolio picture",
         techstack: ["HTML", "CSS", "Javascript","Github Pages"],
@@ -29,7 +29,7 @@ const projects: Project[] = [
     },
     {
         title: "Pomodoro Timer",
-        link: "https://github.com/eluong1217/pomodoro-timer",
+        link: "https://eluong1217.github.io/Pomodoro-Timer/",
         description: "A timer I created to help replicate the Pomodoro effect to enhance productivity. I used HTML, CSS, and Javascript to create this project as well as Github Pages to host the website.",
         alt: "portfolio picture",
         techstack: ["HTML", "CSS", "Javascript","Github Pages"],
