@@ -29,7 +29,7 @@ export default function Hero() {
                 {/** TODO: Add Links */}
                 <Stack direction="row" spacing={5}>
                     <Button leftIcon={<EmailIcon />} colorScheme="teal" > Contact Me </Button>
-                    <Button leftIcon={<Icon as={FaLinkedin} />} colorScheme="linkedin" onClick={() => {window.open("https://github.com/eluong1217")}}> LinkedIn </Button>
+                    <Button leftIcon={<Icon as={FaLinkedin} />} colorScheme="linkedin" onClick={() => {window.open("https://www.linkedin.com/in/eluong1217/")}}> LinkedIn </Button>
                 </Stack>
             </Stack>
         </Flex>
