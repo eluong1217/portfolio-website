@@ -8,6 +8,15 @@ export default function WorkExperience() {
         {
             title: "University of Massachusetts Boston",
             alt: "UMB Logo",
+            role: "Research Assistant",
+            period: "Sept 2024 - Present",
+            skills: [],
+            bullets: [],
+            logo: "/work_UMB.png",
+        },
+        {
+            title: "University of Massachusetts Boston",
+            alt: "UMB Logo",
             role: "Peer Mentor",
             period: "Sept 2022 - Present",
             skills: [],
