@@ -23,7 +23,7 @@ export default function Hero() {
                 </Heading>
                 
                 <Text id="about_us" textAlign="center">
-                     Hi! I&apos;m a junior in college who grew up in Boston and loves to learn new things. I&apos;m currently pursuing a Bachelors of Arts in Computer Science and a minor in Economics at the University of Massachusetts, Boston.
+                     Hi! I&apos;m a recent college graduate who grew up in Boston and loves to learn new things. I was pursuing a Bachelors of Arts in Computer Science and Economics at the University of Massachusetts, Boston.
                 </Text>
                 
                 {/** TODO: Add Links */}
