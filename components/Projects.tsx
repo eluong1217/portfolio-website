@@ -1,5 +1,5 @@
 import { Flex, Heading, Stack, Icon, Box,  Text, useColorModeValue, SimpleGrid, useColorMode, Center, Tag, Image, LinkBox, LinkOverlay} from "@chakra-ui/react";
-import {GrCode} from "react-icons/gr";
+import {FaCode} from "react-icons/fa";
 import { Project} from "../types";
 
 const projects: Project[] = [
@@ -105,7 +105,7 @@ export default function Projects() {
         <> 
             <Flex justifyContent="center" flexDirection="column" alignItems="center">
                 <Stack direction="row" spacing={5} alignItems="center" my={5}>
-                    <Icon as={GrCode} boxSize={"10"} />
+                    <Icon as={FaCode} boxSize={"10"} color={useColorModeValue("black", "white")} />
                     <Heading size="2xl" fontWeight="800">
                         Projects
                     </Heading>
