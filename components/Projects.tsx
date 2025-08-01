@@ -4,7 +4,7 @@ import { Project} from "../types";
 
 const projects: Project[] = [
     {
-        title: "Monkey Mania",
+        title: "Monkey Mania (2019)",
         link: "https://github.com/eluong1217/monkey-mania",
         description: "An arcade based game where the player uses arrow keys to move left and right to try and catch fruits. I used the Processing IDE which has a similar language to Java to implement features such as controls, a life counter and game over menu.",
         alt: "portfolio picture",
@@ -38,7 +38,7 @@ const projects: Project[] = [
     {
         title: "Pixar vs. DreamWorks",
         link: "https://github.com/eluong1217/Pixar-Vs.-DreamWorks",
-        description: "A statistical analysis between the performance of Pixar and DreamWorks movies. I used RStudio to create the visual aspects of the set as well as Microsoft Suite to import the data and organize it in a digestible manner.",
+        description: "A statistical analysis between the performance of Pixar and DreamWorks movies. I used R to create the visual aspects of the set as well as Microsoft Suite to import the data and organize it in a digestible manner.",
         alt: "portfolio picture",
         techstack: ["R", "RStudio", "Word", "Excel", "Powerpoint"],
         image: "/project_pvd.png"

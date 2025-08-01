@@ -42,7 +42,7 @@ export default function WorkExperience() {
             logo: "/work_UMB.png",
         },
         {
-            title: "Castle Square Intro to Tech Internship",
+            title: "Castle Square Tenants Organization",
             alt: "Square Tech Logo",
             role: "Tech Intern",
             period: "Sept 2019 - Jan 2020",

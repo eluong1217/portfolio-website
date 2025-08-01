@@ -1,4 +1,4 @@
-import { Box, Stack, Image, Flex, Heading, Text, Button, Icon } from '@chakra-ui/react';
+import { Box, Stack, Image, Flex, Heading, Text, Button, Icon, useColorModeValue } from '@chakra-ui/react';
 import { EmailIcon } from '@chakra-ui/icons'
 import { FaLinkedin } from 'react-icons/fa';
 
@@ -9,7 +9,7 @@ export default function Hero() {
             <Stack direction="column" justifyContent="center" alignItems="center" spacing={5}>
                 <Image 
                     alt="profile picture" 
-                    src="/smiling_eric.png" 
+                    src={useColorModeValue("/smiling_eric.png", "/evil_eric.png")} 
                     boxSize={350}
                     borderRadius={"full"}
                 />
@@ -19,11 +19,11 @@ export default function Hero() {
                 </Heading>
                 
                 <Heading color="blue.300" id="tagline" fontSize="4xl" fontWeight="900" textAlign="center">
-                    Fulltime College Student.
+                    Ex-Fulltime College Student.
                 </Heading>
                 
-                <Text id="about_us" textAlign="center">
-                     Hi! I&apos;m a recent college graduate who grew up in Boston and loves to learn new things. I was pursuing a Bachelors of Arts in Computer Science and Economics at the University of Massachusetts, Boston.
+                <Text id="about_us" textAlign="left">
+                     Hi! I&apos;m a recent college graduate who grew up in Boston, who loves to learn new things. I was pursuing a Bachelors of Arts in Computer Science and Economics at the University of Massachusetts, Boston.
                 </Text>
                 
                 {/** TODO: Add Links */}

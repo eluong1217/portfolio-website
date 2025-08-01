@@ -16,7 +16,7 @@ const Universities: School[] = [
         alt: "BLS Logo",
         degree: "High School Diploma",
         period: "May 2020",
-        gpa: "3.3",
+        gpa: "3.1",
         logo: "/education_bls.png"
     }
 ]
