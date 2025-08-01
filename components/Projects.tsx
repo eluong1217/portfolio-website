@@ -52,14 +52,16 @@ const Project = (props: {project: Project}) => {
             <Center py={6}>
                 <LinkBox
                     w={"full"}
-                    bg={useColorModeValue("white", "gray.900")}
+                    bg={useColorModeValue("blue.100", "gray.800")}
+                    borderWidth="1px"
+                    borderColor={useColorModeValue("blue.50", "gray.700")}
                     boxShadow={"2xl"}
-                    rounded={"md"}
+                    rounded={"xl"}
                     px={6}
                     py={3}
                     mx={5}
                     overflow={"hidden"}
-                    _hover={{ cursor: "pointer" }}
+                    _hover={{ cursor: "pointer", borderColor: "blue.500" }}
                     onClick={() => {
                     props.project.link && window.open(props.project.link);
                     }}
@@ -85,10 +87,10 @@ const Project = (props: {project: Project}) => {
                     >
                         {props.project.title}
                     </Text>
-                    <Text color={"gray.500"}>{props.project.description}</Text>
+                    <Text fontSize="sm">{props.project.description}</Text>
                     </Stack>
                     {props.project.techstack.map((tech) => (
-                    <Tag size="sm" padding="0 5px" key={tech} mx={1}>
+                    <Tag size="md" padding="0 5px" key={tech} mx={1}>
                         {tech}
                     </Tag>
                     ))}

@@ -27,7 +27,7 @@ export default function WorkExperience() {
             title: "Reign Drink Lab",
             alt: "Reign Logo",
             role: "Barista",
-            period: "Sept 2021 - Present",
+            period: "Sept 2021 - July 2023",
             skills: [],
             bullets: [],
             logo: "/work_reign.png",
@@ -36,7 +36,7 @@ export default function WorkExperience() {
             title: "University of Massachusetts Boston",
             alt: "UMB Logo",
             role: "Course Grader for CS285L",
-            period: "Sept 2022 - December 2022",
+            period: "Sept 2022 - Dec 2022",
             skills: [],
             bullets: [],
             logo: "/work_UMB.png",
@@ -45,7 +45,7 @@ export default function WorkExperience() {
             title: "Castle Square Intro to Tech Internship",
             alt: "Square Tech Logo",
             role: "Tech Intern",
-            period: "Sept 2019 - Janurary 2020",
+            period: "Sept 2019 - Jan 2020",
             skills: [],
             bullets: [],
             logo: "/work_SquareTech.png",
@@ -54,7 +54,7 @@ export default function WorkExperience() {
             title: "Kumon Math and Reading Center",
             alt: "Kumon Logo",
             role: "Center Assistant",
-            period: "July 2018 - August 2019",
+            period: "July 2018 - Aug 2019",
             skills: [],
             bullets: [],
             logo: "/work_kumon.png",
@@ -63,7 +63,7 @@ export default function WorkExperience() {
             title: "BCYF City Hall Childcare",
             alt: "BCYF Logo",
             role: "Child Supervisor",
-            period: "June 2017 - August 2017",
+            period: "June 2017 - Aug 2017",
             skills: [],
             bullets: [],
             logo: "/work_bcyf.png",
@@ -78,8 +78,8 @@ export default function WorkExperience() {
                 py={5}
                 borderWidth="1px"
                 rounded="xl"
-                bg={useColorModeValue("white", "gray.800")}
-                borderColor={useColorModeValue("gray.100", "gray.700")}
+                bg={useColorModeValue("blue.100", "gray.800")}
+                borderColor={useColorModeValue("blue.50", "gray.700")}
                 _hover={{ borderColor: "blue.500" }}
                 position="relative"
                 >

@@ -4,7 +4,7 @@ import {School} from "../types";
 
 const Universities: School[] = [
     {
-        title: "University of Massuchusetts Boston",
+        title: "University of Massachusetts Boston",
         alt: "UMB Logo",
         degree: "B.A in Computer Science",
         period: "May 2024",
@@ -32,8 +32,8 @@ export default function Education() {
                     width="100%"
                     borderWidth="1px"
                     rounded="xl"
-                    bg={useColorModeValue("white", "gray.800")}
-                    borderColor={useColorModeValue("gray.100", "gray.700")}
+                    bg={useColorModeValue("blue.100", "gray.800")}
+                    borderColor={useColorModeValue("blue.50", "gray.700")}
                     _hover={{ borderColor: "blue.500" }}
                     position="relative"
                     >
@@ -63,8 +63,8 @@ export default function Education() {
                                 
                                 <Heading
                                     // align="left"
-                                    fontSize="xs"
-                                >
+                                    fontSize="m"
+                                >   
                                     GPA: {props.university.gpa}
                                 </Heading>
                             </Stack>

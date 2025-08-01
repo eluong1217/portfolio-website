@@ -14,11 +14,11 @@ import {
   MenuDivider,
   useDisclosure,
   useColorModeValue,
+  useColorMode,
   Stack,
 } from '@chakra-ui/react';
-import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
+import { HamburgerIcon, CloseIcon, MoonIcon, SunIcon } from '@chakra-ui/icons';
 import { Switch } from '@chakra-ui/react'
-import { MoonIcon } from '@chakra-ui/icons'
 import {
   FormControl,
   FormLabel,
@@ -49,6 +49,7 @@ const NavLink = (props: {link: NavBarLink}) => (
 
 export default function NavBar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const { colorMode, toggleColorMode } = useColorMode();
 
   return (
     <>
@@ -73,8 +74,8 @@ export default function NavBar() {
             </HStack>
           </HStack>
           <Stack align='center' direction='row'>
-            <MoonIcon color = "black"/>
-            <Switch size='lg'/>
+            {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
+            <Switch size='lg' isChecked={colorMode === 'dark'} onChange={toggleColorMode}/>
           </Stack>
         </Flex>
         {isOpen ? (
