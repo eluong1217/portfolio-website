@@ -1,6 +1,6 @@
 import { Flex, Heading, Stack, Icon, Box,  Text, useColorModeValue, SimpleGrid, useColorMode, Center, Tag, Image, LinkBox, LinkOverlay} from "@chakra-ui/react";
 import {FaCode} from "react-icons/fa";
-import { Project} from "../types";
+import { type Project} from "../types";
 
 const projects: Project[] = [
     {
